@@ -18,7 +18,7 @@ export default {
       },
       backgroundImage: {
         "mobile-bg": "url('./src/assets/images/background-mobile.png')",
-        "desktop-bg": "url('./src/assets/images/background-desktop.png')",
+        "desktop-bg": "url('./background-desktop.png')",
         "tablet-bg": "url('./src/assets/images/background-tablet.png')",
         "squiggly-desktop":
           "url('./src/assets/images/pattern-squiggly-line-bottom-desktop.svg')",
