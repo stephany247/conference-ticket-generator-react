@@ -216,8 +216,8 @@ function App() {
                 <div className="absolute top-0 left-0 sm:left-0 w-full h-full grid grid-cols-5 items-center justify-between gap-3 grow">
                   <div className="flex flex-col col-start-1 col-span-4 items-start justify-between w-full h-full py-6 px-4 sm:p-12">
                     {/* logo and event info */}
-                    <div className="flex items-start justify-start gap-2">
-                      <img src={logoMark} className="size-6"></img>
+                    <div className="flex items-start justify-start gap-2 sm:gap-4">
+                      <img src={logoMark} className="size-6 sm:size-8"></img>
                       <div>
                         <h2 className="text-neutral-0 text-lg/4 sm:text-2xl/4 pb-1">
                           Coding Conf
@@ -228,21 +228,21 @@ function App() {
                       </div>
                     </div>
                     {/* Ticket Holder info  */}
-                    <div className="flex items-start justify-center gap-2">
-                      <img src={avatar} className="size-8 rounded-md"></img>
+                    <div className="flex items-end justify-center gap-2 sm:gap-4">
+                      <img src={avatar} className="size-8 sm:size-12 rounded-md"></img>
                       <div>
-                        <h3 className="text-base/4 sm:text-2xl/4 text-neutral-200">
+                        <h3 className="text-base/4 sm:text-2xl/4 text-neutral-200 pb-1">
                           {firstName}
                         </h3>
                         <div className="text-neutral-400 text-xs flex items-center gap-1">
-                          <img src={githubIcon} className="size-4"></img>
+                          <img src={githubIcon} className="size-4 sm:size-6"></img>
                           <p className="text-neutral-400 text-xs sm:text-base"> @{username}</p>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="flex items-center justify-center basis-1/6">
-                    <h3 className="text-neutral-400 text-xs sm:text-base -rotate-90 ">
+                    <h3 className="text-neutral-400 text-sm sm:text-lg -rotate-90 ">
                       60910#
                     </h3>
                   </div>
