@@ -127,7 +127,7 @@ function App() {
   };
 
   return (
-    <div className="relative m-auto min-h-screen font-inconsolata text-neutral-0 bg-mobile-bg sm:bg-tablet-bg md:bg-desktop-bg bg-cover bg-center bg-no-repeat">
+    <div className="relative m-auto min-h-screen font-inconsolata text-neutral-0 bg-[url('./src/assets/images/background-mobile.png')] sm:bg-tablet-bg md:bg-desktop-bg bg-cover bg-center bg-no-repeat">
       <div className="bg-pattern-lines bg-cover bg-no-repeat">
         <div className="absolute top-4 right-0 size-28 sm:size-5/12 bg-squiggly-top bg-no-repeat bg-contain bg-right-top"></div>
         <div className="absolute bottom-0 left-0 size-48 sm:size-9/12 bg-squiggly-mobile sm:bg-squiggly-desktop bg-no-repeat bg-contain bg-left-bottom"></div>
