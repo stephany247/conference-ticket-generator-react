@@ -73,14 +73,10 @@ function App() {
     setAvatar(null);
   };
 
-  console.log(avatar);
 
   const handleChangeImage = (e) => {
-    e.preventDefault();
-    console.log(inputRef.current); // Check if the ref is properly attached
     if (inputRef.current) {
       console.log("Opening file selector...");
-      inputRef.current.value= "";
       inputRef.current.click();
     } else {
       console.error("inputRef is not properly attached");

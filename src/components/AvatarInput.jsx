@@ -29,9 +29,18 @@ const AvatarInput = ({
                 Remove image
               </button>
               <button
+                type="button"
                 className="bg-neutral-0 bg-opacity-10 rounded-md px-2 py-1 focus:underline active:underline"
                 onClick={handleChangeImage}
               >
+                <input
+                  id="avatarInput"
+                  type="file"
+                  accept="image/*"
+                  onChange={handleFileChange}
+                  className="hidden"
+                  ref={inputRef}
+                />
                 Change Image
               </button>
             </div>
