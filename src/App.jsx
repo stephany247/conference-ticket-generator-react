@@ -127,10 +127,10 @@ function App() {
   };
 
   return (
-    <div className="relative m-auto min-h-screen font-inconsolata text-neutral-0 bg-[url('/background-mobile.png')] sm:bg-tablet-bg md:bg-desktop-bg bg-cover bg-center bg-no-repeat">
-      <div className="bg-pattern-lines bg-cover bg-no-repeat">
-        <div className="absolute top-4 right-0 size-28 sm:size-5/12 bg-squiggly-top bg-no-repeat bg-contain bg-right-top"></div>
-        <div className="absolute bottom-0 left-0 size-48 sm:size-9/12 bg-squiggly-mobile sm:bg-squiggly-desktop bg-no-repeat bg-contain bg-left-bottom"></div>
+    <div className="relative m-auto min-h-screen font-inconsolata text-neutral-0 bg-[url('/background-mobile.png')] sm:bg-[url('/background-tablet.png')] md:bg-[url('/background-desktop.png')] bg-cover bg-center bg-no-repeat">
+      <div className="bg-[url('/pattern-lines.svg')] bg-cover bg-no-repeat">
+        <div className="absolute top-4 right-0 size-28 sm:size-5/12 bg-[url('/pattern-squiggly-line-top.svg')] bg-no-repeat bg-contain bg-right-top"></div>
+        <div className="absolute bottom-0 left-0 size-48 sm:size-9/12 bg-[url('/pattern-squiggly-line-bottom-mobile-tablet.svg')] sm:bg-[url('/pattern-squiggly-line-bottom-desktop.svg')] bg-no-repeat bg-contain bg-left-bottom"></div>
         <div className="pt-8 mx-4 sm:m-auto relative z-10 flex flex-col items-center justify-center min-h-screen sm:max-w-screen-md">
           <img src={logoFull} className="size-1/3 w-52 h-8 mb-8" alt="logo" />
           {!isSubmitted ? (
